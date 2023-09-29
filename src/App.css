@@ -45,3 +45,11 @@
   margin: 0px;
   padding: 0px;
 }
+
+body{
+  background: #c6eee5;
+}
+
+html{
+  scroll-behavior: smooth;
+}
