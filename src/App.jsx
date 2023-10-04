@@ -3,12 +3,16 @@ import { Route, Routes } from "react-router-dom"
 import "../src/App.css"
 import Navbar from "./Components/Navbar/Navbar"
 import Hero from "./Components/Header/Hero"
+import About from "./Components/About/About"
+import Skills from "./Components/Skills/Skills"
 
 export default function App() {
   return (
     <div>
       <Navbar/>
       <Hero/>
+      <About/>
+      <Skills/>
 
       <Routes>
         <Route path="/" element={<h1></h1>}/>

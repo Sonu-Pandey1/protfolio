@@ -1,7 +1,7 @@
-
+@import "../../Common/Common.scss";
 
 .HeroSection{
-    color: red;
+    // color: red;
     height: 100%;
     width: 100%;
     padding: 0px 6%;
@@ -9,17 +9,45 @@
 }
 
 .row{
-    margin: 10% 0px;
+    margin-top: 5%;
 
     .leftDiv{
+        margin-top: 100px;
+        p{
+            color: $font-secondary;
+            font-size: large;
+            font-weight: 400;
+          
+        }
+
+        .btn{
+            margin-top: 20px;
+        }
+        
+    }
+
+    .rightDiv{
         // background-color: red;
+        
        
         img{
             // background-color: red;
-            height: 65%;
+            height: 90%;
             width: 100%;
             object-fit: contain;
         }
         
     }
 }
+
+.animationleftdiv {
+    h3{
+          margin-top: 15px;
+    }
+
+    .Typinganimation{
+        color: $font-tertiary;
+        letter-spacing: 1px;
+    }
+}
+

@@ -1,0 +1,52 @@
+
+
+.skillsSection{
+    position: relative;
+    margin-top: 30px;
+}
+
+.MySkills{
+
+    color: #27DEBE;
+}
+
+.MySkills::before{
+    content: " ";
+    height: 2px;
+    width: 60px;
+    background-color: #27DEBE;
+    position: absolute;
+    top: 16px;
+    left: 39%;
+}
+
+.skillsWrappper::before{
+    content: " ";
+    height: 2px;
+    width: 100px;
+    background-color: #27DEBE;
+    position: absolute;
+    top: 27px;
+    left: 36%;
+}
+
+.MySkills::after{
+    content: " ";
+    height: 2px;
+    width: 60px;
+    background-color: #27DEBE;
+    position: absolute;
+    top: 16px;
+    left: 57%;
+}
+
+.skillsWrappper::after{
+    content: " ";
+    height: 2px;
+    width: 100px;
+    background-color: #27DEBE;
+    position: absolute;
+    top: 27px;
+    left: 57%;
+}
+

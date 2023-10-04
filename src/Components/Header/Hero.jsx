@@ -1,4 +1,5 @@
 import "../Header/Hero.scss"
+import Typed from 'react-typed';
 
 export default function Hero() {
     return (
@@ -6,14 +7,38 @@ export default function Hero() {
             <div className="HeroSection">
                 <div className="container-fulid ">
                     <div className="row">
-                        <div className="col-6 rightDiv">
-                            <h1>Welcome To My PortFolio</h1>
-                            <h2>My Name is sonu pandey</h2>
-                            <h2>i am a developer</h2>
-                            <p>A Web Developer Is A Programmer Who Develops World Wide Web Applications Using A Client–Server Model. The Applications Typically Use HTML, CSS, And JavaScript In The Client, And Any General-Purpose Programming Language In The Server.</p>
-                            <button className="btn btn-dark">About Me</button>
-                        </div>
                         <div className="col-6 leftDiv">
+                            <div className="animationleftdiv">
+                                <h1>Hy I Am  
+                                    <Typed className="Typinganimation px-2"
+                                        strings={[
+                                            "  Sonu Pandey "
+                                        ]}
+                                        typeSpeed={50}
+                                        showCursor={false}
+                                    />
+                                </h1>
+                                <h3 >I Am A 
+                                    <Typed className="Typinganimation px-2"
+                                        strings={[
+                                            " Front-end Developer ",
+                                            " React Developer",
+                                            " Web Developer",
+                                            " Freelancer",
+                                            " Youtuber",
+                                            " Coder ",                
+                                        ]}
+                                        typeSpeed={50}
+                                        backSpeed={50}
+                                        loop
+                                    /></h3>
+                            </div>
+
+                            <p>A Web Developer Is A Programmer Who Develops World Wide Web Applications Using A Client–Server Model. The Applications Typically Use HTML, CSS, And JavaScript In The Client, And Any General-Purpose Programming Language In The Server.</p>
+                            <button className="btn btn-outline-success">Hire Me</button>
+                            <button className="btn btn-outline-dark ms-5 ">About Me</button>
+                        </div>
+                        <div className="col-6 rightDiv">
                             <img src="home-img.gif" alt="error" />
                         </div>
                     </div>

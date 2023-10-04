@@ -1,0 +1,97 @@
+@import "../../Common/Common.scss";
+
+.aboutSection{
+    // background-color: orange;
+    padding: 0% 6%;
+    position: relative;
+   
+}
+
+.aboutLeftDiv{
+  
+    // object-fit: contain;
+    overflow: hidden;
+    img{
+        height: auto;
+        width: 100%;
+        // object-fit: contain;
+    }
+}
+
+.AboutRightDiv{
+    p{
+        color: $font-secondary;
+        font-size: large;
+    }
+
+    ul{
+        p{
+            span{
+                color: $font-tertiary;
+                font-weight: 500;
+            }
+        }
+    }
+    
+    
+}
+
+.personalInfo{
+    display: flex;
+    justify-content: space-between;
+  
+     ul{
+        padding-left: 0px;
+     }
+
+    ul li {
+        list-style: none;
+    }
+    
+}
+
+.AboutMe{
+
+    color: #27DEBE;
+}
+
+.AboutMe::before{
+    content: " ";
+    height: 2px;
+    width: 60px;
+    background-color: #27DEBE;
+    position: absolute;
+    top: 16px;
+    left: 39%;
+}
+
+.aboutWrapper::before{
+    content: " ";
+    height: 2px;
+    width: 100px;
+    background-color: #27DEBE;
+    position: absolute;
+    top: 27px;
+    left: 36%;
+}
+
+.AboutMe::after{
+    content: " ";
+    height: 2px;
+    width: 60px;
+    background-color: #27DEBE;
+    position: absolute;
+    top: 16px;
+    left: 57%;
+}
+
+.aboutWrapper::after{
+    content: " ";
+    height: 2px;
+    width: 100px;
+    background-color: #27DEBE;
+    position: absolute;
+    top: 27px;
+    left: 57%;
+}
+
