@@ -1,0 +1,66 @@
+
+.My_Portfolio{
+    position: relative;
+    margin-top: 90px;
+    
+}
+
+.My_portfolio{
+
+    color: #27DEBE;
+}
+
+.My_portfolio::before{
+    content: " ";
+    height: 2px;
+    width: 60px;
+    background-color: #27DEBE;
+    position: absolute;
+    top: 16px;
+    left: 38%;
+}
+
+.portfolioWrappper::before{
+    content: " ";
+    height: 2px;
+    width: 100px;
+    background-color: #27DEBE;
+    position: absolute;
+    top: 27px;
+    left: 35%;
+}
+
+.My_portfolio::after{
+    content: " ";
+    height: 2px;
+    width: 60px;
+    background-color: #27DEBE;
+    position: absolute;
+    top: 16px;
+    left: 58%;
+}
+
+.portfolioWrappper::after{
+    content: " ";
+    height: 2px;
+    width: 100px;
+    background-color: #27DEBE;
+    position: absolute;
+    top: 27px;
+    left: 58%;
+}
+
+.container {
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+
+.box{
+    background-color: #27DEBE;
+    margin: 10px;
+    height: 300px;
+    width: 30%;
+
+}
+
+}

@@ -3,6 +3,7 @@
 .skillsSection{
     position: relative;
     margin-top: 30px;
+    
 }
 
 .MySkills{
@@ -49,4 +50,160 @@
     top: 27px;
     left: 57%;
 }
+
+// .imgWrapper{
+//     margin: 0% 5%;
+
+// }
+
+// .skillIcon{
+//     height: 200px;
+//     width: 300px;
+//     // background-color: #27DEBE;
+//     display: flex;
+//     margin-top: 10px;
+   
+//     .sicon{
+//         height: 90%;
+//         width : 90%;
+//         // background-color: brown;
+//         align-items: center;
+//         // margin-top: 50px;
+//         border: 2px solid #27DEBE ;
+//         color: #10917c;
+//     // transform: scale(1.1);
+
+
+        
+//     }
+
+// }
+
+// .skillIcon :hover{
+//     background-color: #27dec019;
+//     cursor: pointer;
+//     // border: 2px solid #10917c;
+//     // transform: rotateX(90);
+//     transition: all 0.5 ease-in-out;
+//     // transform: scale(1.1);
+// }
+
+
+
+.progress{
+    // background-color: red;
+    height: auto;
+    margin-top: 30px;
+    display: block;
+    background-color: transparent;
+    h3{
+        display: flex;
+    justify-content: space-between;
+    padding: .2rem 0rem;
+    font-size: 1rem;
+    color: #111;
+    font-weight: 400;
+   
+    }
+    .skillSpan{
+        margin-left: 350px;
+    }
+    .bar{
+        width: 100%;
+    background-color: #CCCCCC;
+    overflow: hidden;
+    height: 0.5rem;
+    border-radius: 50rem;
+    span{
+        display: block;
+        height: 100%;
+        background-color:#0A7074;
+        border-radius: 50rem;
+       
+    }
+    }
+    
+    
+}
+
+.progress:nth-child(1) .bar span {
+    width: 85%;
+   
+}
+.progress:nth-child(2) .bar span {
+    width: 70%;
+   
+}
+.progress:nth-child(3) .bar span {
+    width: 75%;
+   
+}
+.progress:nth-child(4) .bar span {
+    width: 80%;
+   
+}
+.progress:nth-child(5) .bar span {
+    width: 60%;
+   
+}
+.progress:nth-child(6) .bar span {
+    width: 70%;
+   
+}
+.progress:nth-child(7) .bar span {
+    width: 40%;
+   
+}
+.progress:nth-child(8) .bar span {
+    width: 55%;
+   
+}
+.progress:nth-child(9) .bar span {
+    width: 60%;
+   
+}
+.progress:nth-child(10) .bar span {
+    width: 50%;
+   
+}
+.progress:nth-child(11) .bar span {
+    width: 85%;
+   
+}
+.progress:nth-child(12) .bar span {
+    width: 70%;
+   
+}
+
+.skillRightDivParent{
+    margin-top: 100px;
+    // background-color: red;
+    display: flex;
+    // display:inline-block;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    // height: auto;
+    .skillsrightdiv{
+
+        height: 10em;
+        width: 15em;
+        background-color: #ffffff;
+        box-shadow: 1px 1px 20px 2px rgb(208, 208, 208);
+        margin-top: 30px;
+        border-radius: 10%;
+        padding: 30px;
+        h3{
+            color: #27DEBE;
+        }
+        p{
+            color: #666666;
+            font-size: large;
+            
+        }
+
+    }
+
+}
+
+
 
