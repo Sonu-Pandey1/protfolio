@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar/Navbar"
 import Hero from "./Components/Header/Hero"
 import About from "./Components/About/About"
 import Skills from "./Components/Skills/Skills"
+// import Exprences from "./Components/Exprences/Exprences"
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Hero/>
       <About/>
       <Skills/>
+      {/* <Exprences/> */}
 
       <Routes>
         <Route path="/" element={<h1></h1>}/>
