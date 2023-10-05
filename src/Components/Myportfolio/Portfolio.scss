@@ -51,16 +51,42 @@
 }
 
 .container {
-    background-color: red;
+    // background-color: red;
     display: flex;
     flex-wrap: wrap;
 
 .box{
-    background-color: #27DEBE;
+    // background-color: #27DEBE;
     margin: 10px;
     height: 300px;
-    width: 30%;
+    width: 31%;
+    overflow: hidden;
+    border-radius: .9rem;
+
+    background-color: rgb(255, 255, 255);
+    
+
+    img{
+        // object-fit: cover;
+        height: 100%;
+        width: 100%;
+        border-radius: 1rem;
+        padding: 15px 5px;
+        cursor: pointer;
+
+   
+        
+    }
+    img:hover{
+        transition: all 0.5s ease-in-out;
+        // transform: rotate(90deg);
+        scale: 1.1;
+    }
 
 }
 
+}
+
+.footerh1{
+    font-size: 25px;
 }

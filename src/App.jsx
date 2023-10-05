@@ -5,11 +5,8 @@ import Navbar from "./Components/Navbar/Navbar"
 import Hero from "./Components/Header/Hero"
 import About from "./Components/About/About"
 import Skills from "./Components/Skills/Skills"
-<<<<<<< HEAD
 import Portfolio from "./Components/Myportfolio/Portfolio"
-=======
->>>>>>> 12c8960e02cd47f80689012ab1376dc0a3c201c2
-// import Exprences from "./Components/Exprences/Exprences"
+
 
 export default function App() {
   return (
@@ -19,10 +16,12 @@ export default function App() {
       <About/>
       <Skills/>
       {/* <Exprences/> */}
-<<<<<<< HEAD
       <Portfolio/>
-=======
->>>>>>> 12c8960e02cd47f80689012ab1376dc0a3c201c2
+      <footer>
+        <div className="container-fulid mt-5 p-4 text-center bg-light ">
+          <h1 className="display-6 footerh1">Created By Mr. Sonu Pandey | © All Right Reseved!</h1>
+        </div>
+      </footer>
 
       <Routes>
         <Route path="/" element={<h1></h1>}/>
