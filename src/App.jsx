@@ -5,7 +5,10 @@ import Navbar from "./Components/Navbar/Navbar"
 import Hero from "./Components/Header/Hero"
 import About from "./Components/About/About"
 import Skills from "./Components/Skills/Skills"
+<<<<<<< HEAD
 import Portfolio from "./Components/Myportfolio/Portfolio"
+=======
+>>>>>>> 12c8960e02cd47f80689012ab1376dc0a3c201c2
 // import Exprences from "./Components/Exprences/Exprences"
 
 export default function App() {
@@ -16,7 +19,10 @@ export default function App() {
       <About/>
       <Skills/>
       {/* <Exprences/> */}
+<<<<<<< HEAD
       <Portfolio/>
+=======
+>>>>>>> 12c8960e02cd47f80689012ab1376dc0a3c201c2
 
       <Routes>
         <Route path="/" element={<h1></h1>}/>
