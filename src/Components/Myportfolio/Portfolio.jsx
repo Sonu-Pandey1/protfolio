@@ -3,12 +3,12 @@ import "../Myportfolio/Portfolio.scss"
 export default function Portfolio() {
     return (
         <>
-            <section className="My_Portfolio">
+            <section id="portfolio" className="My_Portfolio">
                 <div className="portfolioWrappper">
                     <h2 className="text-center My_portfolio mb-5">My <span className="titleColor">Portfolio</span></h2>
                 </div>
                 <div className="container">
-                    <div className="row">
+                    <div className="row ">
                         <div className="box">
                         <div className="siteTitle ">
                                 <h1 className="text-center">Movies Website</h1>

@@ -4,10 +4,10 @@ import Typed from 'react-typed';
 export default function Hero() {
     return (
         <>
-            <div className="HeroSection">
+            <div  className="HeroSection">
                 <div className="container-fulid ">
                     <div className="row">
-                        <div className="col-6 leftDiv">
+                        <div className="col-lg-6 leftDiv">
                             <div className="animationleftdiv">
                                 <h1>Hy I Am  
                                     <Typed className="Typinganimation px-2"
@@ -36,9 +36,9 @@ export default function Hero() {
 
                             <p>A Web Developer Is A Programmer Who Develops World Wide Web Applications Using A Client–Server Model. The Applications Typically Use HTML, CSS, And JavaScript In The Client, And Any General-Purpose Programming Language In The Server.</p>
                             <button className="btn btn-outline-success">Hire Me</button>
-                            <button className="btn btn-outline-dark ms-5 ">About Me</button>
+                            <a href="#about" className="btn btn-outline-dark ms-5 ">About me</a>
                         </div>
-                        <div className="col-6 rightDiv">
+                        <div className="col-lg-6 rightDiv">
                             <img src="home-img.gif" alt="error" />
                         </div>
                     </div>

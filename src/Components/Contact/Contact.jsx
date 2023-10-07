@@ -4,7 +4,7 @@ import "../Contact/Contact.scss"
 export default function Contact() {
     return (
         <>
-            <div className="container d-block">
+            <div id="contact" className="container d-block">
                 <div className="contactWrapper">
                     <h2 className="contact">Contact <span className="titleColor">Me</span></h2>
                 </div>

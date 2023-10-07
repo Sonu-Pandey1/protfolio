@@ -4,7 +4,7 @@ import "../About/About.scss";
 export default function About() {
     return (
         <>
-            <div className="aboutSection ">
+            <div id="about" className="aboutSection " >
                 <div className="aboutWrapper">
                 <h2 className=" text-center AboutMe">About <span className="titleColor">Me</span></h2>
                 </div>
@@ -33,8 +33,9 @@ export default function About() {
 
                                 </ul>
                             </div>
-                            <button className="btn btn-outline-dark">Download CV</button>
-                            <button className=" btn btn-outline-info ms-5">Hire Me</button>
+                            {/* <button className="btn btn-outline-dark">Download CV</button> */}
+                            <a href="SonuResumef.pdf" target="_blank" className="btn btn-outline-dark">download CV</a>
+                            <a href="tel:918766325423" className="btn btn-outline-dark ms-5">hire me</a>
 
                         </div>
                     </div>

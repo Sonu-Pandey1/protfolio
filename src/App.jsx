@@ -25,15 +25,60 @@ export default function App() {
         </div>
       </footer>
 
+      <div className="wrapper">
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+        <div><span className="dot"></span></div>
+    </div>
+
+      
+{/* 
       <Routes>
         <Route path="/" element={<h1></h1>}/>
         <Route path="/about" element={<h1>about</h1>}/>
         <Route path="/services" element={<h1>service</h1>}/>
         <Route path="/portfolio" element={<h1>portfolio</h1>}/>
         <Route path="/contact" element={<h1>contact</h1>}/>
-        <Route path="/downloadcv" element={<h1>DOWNLOAD CV</h1>}/>
+        <Route path="/downloadcv" element={""}/>
         <Route path="/*" element={<h1>404 Page Not Found</h1>}/>
-      </Routes>
+      </Routes> */}
 
     </div>
   )

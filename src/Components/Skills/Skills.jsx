@@ -43,7 +43,7 @@ import "../Skills/Skills.scss"
 export default function Skills() {
   return (
     <>
-      <section className="skillsSection">
+      <section id="skills" className="skillsSection">
         <div className="skillsWrappper">
           <h2 className="text-center MySkills mb-5">My <span className="titleColor">Skills</span></h2>
         </div>
@@ -103,19 +103,19 @@ export default function Skills() {
             <div className="col">
               <div className="container skillRightDivParent ">
                 <div className="skillsrightdiv">
-                <h3>{'>>'} 6+</h3>
-                    <p>Months of Experience</p>
+                <h3>{'>>'} 10+</h3>
+                    <p>Months of Personal Experience</p>
                 </div>
                 <div className="skillsrightdiv">
                 <h3> {'>>'} 20+</h3>
                     <p>Happy Clients</p>
                 </div>
                 <div className="skillsrightdiv">
-                <h3>{'>>'} 50+</h3>
+                <h3>{'>>'} 10+</h3>
                     <p>Projects Compeleted</p>
                 </div>
                 <div className="skillsrightdiv">
-                <h3> {'>>'} 12+</h3>
+                <h3> {'>>'} 10+</h3>
                     <p>Hour Work Per Day</p>
                 </div>
               </div>
