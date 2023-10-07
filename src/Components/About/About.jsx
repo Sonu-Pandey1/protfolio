@@ -6,7 +6,7 @@ export default function About() {
         <>
             <div className="aboutSection ">
                 <div className="aboutWrapper">
-                <h2 className=" text-center AboutMe">About Me</h2>
+                <h2 className=" text-center AboutMe">About <span className="titleColor">Me</span></h2>
                 </div>
                 <div className="container-fulid">
                     <div className="row ">

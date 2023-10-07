@@ -5,7 +5,7 @@ export default function Portfolio() {
         <>
             <section className="My_Portfolio">
                 <div className="portfolioWrappper">
-                    <h2 className="text-center My_portfolio mb-5">My Portfolio</h2>
+                    <h2 className="text-center My_portfolio mb-5">My <span className="titleColor">Portfolio</span></h2>
                 </div>
                 <div className="container">
                     <div className="row">

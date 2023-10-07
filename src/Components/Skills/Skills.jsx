@@ -45,7 +45,7 @@ export default function Skills() {
     <>
       <section className="skillsSection">
         <div className="skillsWrappper">
-          <h2 className="text-center MySkills mb-5">My Skills</h2>
+          <h2 className="text-center MySkills mb-5">My <span className="titleColor">Skills</span></h2>
         </div>
         <div className="container d-flex justify-content-between">
           {/* <div className="row"> */}

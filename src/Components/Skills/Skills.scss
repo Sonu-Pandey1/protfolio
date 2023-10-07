@@ -6,9 +6,9 @@
     
 }
 
-.MySkills{
+.titleColor{
+    color:#27DEBE;
 
-    color: #27DEBE;
 }
 
 .MySkills::before{
@@ -18,7 +18,7 @@
     background-color: #27DEBE;
     position: absolute;
     top: 16px;
-    left: 39%;
+    left: 40%;
 }
 
 .skillsWrappper::before{
@@ -28,7 +28,7 @@
     background-color: #27DEBE;
     position: absolute;
     top: 27px;
-    left: 36%;
+    left: 37%;
 }
 
 .MySkills::after{
@@ -38,7 +38,7 @@
     background-color: #27DEBE;
     position: absolute;
     top: 16px;
-    left: 57%;
+    left: 56%;
 }
 
 .skillsWrappper::after{
@@ -48,7 +48,7 @@
     background-color: #27DEBE;
     position: absolute;
     top: 27px;
-    left: 57%;
+    left: 56%;
 }
 
 // .imgWrapper{

@@ -6,6 +6,7 @@ import Hero from "./Components/Header/Hero"
 import About from "./Components/About/About"
 import Skills from "./Components/Skills/Skills"
 import Portfolio from "./Components/Myportfolio/Portfolio"
+import Contact from "./Components/Contact/Contact"
 
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
       <Skills/>
       {/* <Exprences/> */}
       <Portfolio/>
+      <Contact/>
       <footer>
         <div className="container-fulid mt-5 p-4 text-center bg-light ">
           <h1 className="display-6 footerh1">Created By Mr. Sonu Pandey | © All Right Reseved!</h1>
