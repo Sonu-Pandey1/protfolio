@@ -19,7 +19,7 @@ export default function About() {
                             <p>As A Web Designer, My Objective Is To Make A Positive Impact On Clients, Co-Workers, And The Internet Using My Skills And Experience To Design Compelling And Attractive Websites.</p>
                             <div className="personalInfo">
                                 <ul>
-                                    <p><span>Age</span> : 21</p>
+                                    <p><span>Age </span> : 21</p>
                                     <p><span>Gender</span> : Male</p>
                                     <p><span>Language</span> : Hindi , English</p>
                                     <p><span>Work</span> : Front-End Developer</p>
