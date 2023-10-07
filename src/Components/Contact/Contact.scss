@@ -69,6 +69,8 @@
         background-color: white;
         box-shadow: 1px 1px 20px 2px rgb(208, 208, 208);
         text-align: center;
+        padding-top: 20px;
+
 
         h3{
             font-size: large;
@@ -115,6 +117,10 @@
     }
 }
 
+.row{
+    height: 100%;
+    width: 100%;
+}
 
 
 .mapwrapper{
@@ -141,7 +147,7 @@
             
             .iconWrapper{
 
-                transform: translate(450%,0%);
+                transform: translate(400%,0%);
             }
         }
     }
@@ -153,5 +159,8 @@
 
 }
 
-
+#message{
+    // background-color: #27DEBE;
+    overflow-x: scroll;
+}
 

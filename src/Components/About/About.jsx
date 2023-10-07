@@ -6,7 +6,7 @@ export default function About() {
         <>
             <div id="about" className="aboutSection my-5 " >
                 <div className="aboutWrapper">
-                <h2 className=" text-center AboutMe ">About <span className="titleColor">Me</span></h2>
+                <h2 className=" text-center AboutMe mb-5 ">About <span className="titleColor">Me</span></h2>
                 </div>
                 <div className="container-fulid">
                     <div className="row ">
@@ -28,7 +28,7 @@ export default function About() {
                                 <ul>
                                     <p><span>Freelance</span> : Available</p>
                                     <p><span>Phone</span> : +91 8766325423</p>
-                                    <p><span>Email</span> : Sonupandeybaldeo2003@gmail.com</p>
+                                    <p><span>Email</span> : Sonupandeybaldeo<br/>2003@gmail.com</p>
                                     <p><span>Country</span> : India</p>
 
                                 </ul>

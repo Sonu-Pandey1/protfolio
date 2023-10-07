@@ -20,7 +20,7 @@ export default function Navbar() {
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul className="navbar-nav ms-auto me-auto ">
+                            <ul className="navbar-nav ms-auto  ">
                                 <li className="nav-item">
                                     {/* <NavLink className="sub-nav-item " aria-current="page" to={"/"}>Home</NavLink> */}
                                     <a href="#home" className="sub-nav-item">Home</a>
