@@ -11,50 +11,72 @@
 }
 
 
-.My_portfolio::before{
-    content: " ";
-    height: 2px;
-    width: 60px;
-    background-color: #27DEBE;
-    position: absolute;
-    top: 16px;
-    left: 38%;
-}
+// .My_portfolio::before{
+//     content: " ";
+//     height: 2px;
+//     width: 60px;
+//     background-color: #27DEBE;
+//     position: absolute;
+//     top: 16px;
+//     left: 38vw;
+// }
 
-.portfolioWrappper::before{
-    content: " ";
-    height: 2px;
-    width: 100px;
-    background-color: #27DEBE;
-    position: absolute;
-    top: 27px;
-    left: 35%;
-}
+// .portfolioWrappper::before{
+//     content: " ";
+//     height: 2px;
+//     width: 100px;
+//     background-color: #27DEBE;
+//     position: absolute;
+//     top: 27px;
+//     left: 35vw;
+// }
 
-.My_portfolio::after{
-    content: " ";
-    height: 2px;
-    width: 60px;
-    background-color: #27DEBE;
-    position: absolute;
-    top: 16px;
-    left: 58%;
-}
+// .My_portfolio::after{
+//     content: " ";
+//     height: 2px;
+//     width: 60px;
+//     background-color: #27DEBE;
+//     position: absolute;
+//     top: 16px;
+//     left: 58vw;
+// }
 
-.portfolioWrappper::after{
-    content: " ";
-    height: 2px;
-    width: 100px;
-    background-color: #27DEBE;
-    position: absolute;
-    top: 27px;
-    left: 58%;
+// .portfolioWrappper::after{
+//     content: " ";
+//     height: 2px;
+//     width: 100px;
+//     background-color: #27DEBE;
+//     position: absolute;
+//     top: 27px;
+//     left: 58vw;
+// }
+
+.siteTitle{
+    // bottom: 50px;
+    // position: absolute;
+    // background-color: red;
+    z-index: 4;
+    // position: relative;
+    h1{
+        font-size: 20px;
+        // position: absolute;
+        top: 230px;
+        right: 90px;
+        z-index: 10 !important;
+        background-color: #d5e6e3;
+        padding: 10px;
+    border-radius: 0.6rem;
+    }
 }
 
 .container {
     // background-color: red;
     display: flex;
     flex-wrap: wrap;
+    position: relative;
+
+    
+
 
 .box{
     // background-color: #27DEBE;
@@ -63,7 +85,6 @@
     // width: 31%;
     // overflow: hidden;
     // border-radius: .9rem;
-
     // background-color: rgb(255, 255, 255);
     
 
@@ -84,25 +105,6 @@
         scale: 1.1;
     }
 
-    .siteTitle{
-        
-        background-color: red;
-        z-index: 4;
-        position: relative;
-        h1{
-            font-size: 20px;
-            position: absolute;
-            top: 230px;
-            right: 90px;
-            z-index: 10 !important;
-            background-color: #d5e6e3;
-            padding: 10px;
-        border-radius: 0.6rem;
-
-            
-        }
-    }
-
 }
 
 }
@@ -120,7 +122,81 @@
     .box{
         height: auto;
         width: auto;
-        background-color: #27DEBE;
+        // background-color: #27DEBE;
     }
+
+    .siteTitle{
+      
+        h1{
+            margin: 10px;
+            font-size: 20px;
+            // position: absolute;
+            top: 230px;
+            right: 90px;
+            z-index: 10 !important;
+            background-color: #d5e6e3;
+            padding: 10px;
+            border-radius: 0.6rem;
+        }
+    }
+    
+    // .My_portfolio::before{
+        
+    //     top: 16px;
+    //     left: 20%;
+    // }
+    
+    // .portfolioWrappper::before{
+        
+    //     top: 27px;
+    //     left: 13%;
+    // }
+    
+    // .My_portfolio::after{
+        
+    //     top: 16px;
+    //     left: 68%;
+    // }
+    
+    // .portfolioWrappper::after{
+       
+    //     top: 27px;
+    //     left: 68%;
+    // }
+}
+
+@media(max-width: 991px) {
+
+    // .My_portfolio::before{
+        
+    //     // top: 16px;
+    //     // left: 28%;
+    //     display: none;
+    // }
+    
+    // .portfolioWrappper::before{
+        
+    //     // top: 27px;
+    //     // left: 24%;
+    //     display: none;
+
+    // }
+    
+    // .My_portfolio::after{
+        
+    //     // top: 16px;
+    //     // left: 65%;
+    //     display: none;
+
+    // }
+    
+    // .portfolioWrappper::after{
+       
+    //     // top: 27px;
+    //     // left: 65%;
+    //     display: none;
+
+    // }
+   
     
 }

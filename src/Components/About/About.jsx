@@ -4,9 +4,9 @@ import "../About/About.scss";
 export default function About() {
     return (
         <>
-            <div id="about" className="aboutSection " >
+            <div id="about" className="aboutSection my-5 " >
                 <div className="aboutWrapper">
-                <h2 className=" text-center AboutMe">About <span className="titleColor">Me</span></h2>
+                <h2 className=" text-center AboutMe ">About <span className="titleColor">Me</span></h2>
                 </div>
                 <div className="container-fulid">
                     <div className="row ">

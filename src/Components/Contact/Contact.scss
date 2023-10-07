@@ -15,45 +15,45 @@
 
 }
 
-.contact::before{
-    content: " ";
-    height: 2px;
-    width: 60px;
-    background-color: #27DEBE;
-    position: absolute;
-    top: 16px;
-    left: 36%;
-}
+// .contact::before{
+//     content: " ";
+//     height: 2px;
+//     width: 60px;
+//     background-color: #27DEBE;
+//     position: absolute;
+//     top: 16px;
+//     left: 36%;
+// }
 
-.contactWrapper::before{
-    content: " ";
-    height: 2px;
-    width: 100px;
-    background-color: #27DEBE;
-    position: absolute;
-    top: 27px;
-    left: 370px;
-}
+// .contactWrapper::before{
+//     content: " ";
+//     height: 2px;
+//     width: 100px;
+//     background-color: #27DEBE;
+//     position: absolute;
+//     top: 27px;
+//     left: 370px;
+// }
 
-.contact::after{
-    content: " ";
-    height: 2px;
-    width: 60px;
-    background-color: #27DEBE;
-    position: absolute;
-    top: 16px;
-    left: 59%;
-}
+// .contact::after{
+//     content: " ";
+//     height: 2px;
+//     width: 60px;
+//     background-color: #27DEBE;
+//     position: absolute;
+//     top: 16px;
+//     left: 59%;
+// }
 
-.contactWrapper::after{
-    content: " ";
-    height: 2px;
-    width: 100px;
-    background-color: #27DEBE;
-    position: absolute;
-    top: 27px;
-    left: 59%;
-}
+// .contactWrapper::after{
+//     content: " ";
+//     height: 2px;
+//     width: 100px;
+//     background-color: #27DEBE;
+//     position: absolute;
+//     top: 27px;
+//     left: 59%;
+// }
 
 .AboutMeWrapper{
     height: auto;
@@ -65,7 +65,7 @@
 
     .aboutMe{
         height: 12rem;
-        width:32%;
+        // width:32%;
         background-color: white;
         box-shadow: 1px 1px 20px 2px rgb(208, 208, 208);
         text-align: center;
@@ -125,6 +125,31 @@
         width: 100%;
         
     }
+
+}
+
+
+@media(max-width: 575px) {
+
+    .AboutMeWrapper{
+        
+        .aboutMe{
+            padding-top: 20px;
+             margin-top: 20px ;
+     
+
+            
+            .iconWrapper{
+
+                transform: translate(450%,0%);
+            }
+        }
+    }
+   
+
+   
+
+
 
 }
 
