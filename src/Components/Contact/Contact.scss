@@ -2,6 +2,7 @@
 @import "../../Common/Common.scss";
 
 .container{
+    margin-bottom: -20px;
     position: relative;
     h2{
         text-align: center;
@@ -64,7 +65,7 @@
 
     .aboutMe{
         height: 12rem;
-        width:22rem;
+        width:32%;
         background-color: white;
         box-shadow: 1px 1px 20px 2px rgb(208, 208, 208);
         text-align: center;
@@ -97,14 +98,34 @@
 }
 
 .form{
-    background-color: #0A7074;
+    // background-color:white;
+    height: auto;
+    width: auto;
+    margin-top: -30px;
+    
 
+    .boxx{
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        padding: 15px 0px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid $font-secondary;
+    }
 }
 
-.formdiv{
-    // height: auto;
-    // width: 30%;
-    background-color: white;
+
+
+.mapwrapper{
+    padding: 15px 15px;
+
+    .map{
+        height: 100%;
+        width: 100%;
+        
+    }
+
 }
 
 

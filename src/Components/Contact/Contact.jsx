@@ -34,32 +34,25 @@ export default function Contact() {
                     </div>
                 </div>
 
-                <div className=" container form">
-                    <div className="row">
-                        <div className=" col-7 formdiv">
-                            <div className="form-floating mb-3">
-                                <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com" />
-                                <label htmlFor="floatingInput">Email address</label>
-                            </div>
-                            <div className="form-floating">
-                                <input type="password" className="form-control" id="floatingPassword" placeholder="Password" />
-                                <label htmlFor="floatingPassword">Password</label>
-                            </div>
+                <div className="  form">
 
-                            <div className="form-floating">
-                                <textarea className="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-                                <label htmlFor="floatingTextarea">Comments</label>
-                            </div>
-
+                    <div className="row gap-4 justify-content-between">
+                        <div className="col-5 bg-light">
+                            <form action="">
+                                <input type="text" placeholder="Name" className="boxx" /><br />
+                                <input type="email" placeholder="Email" className="boxx" /><br />
+                                <input type="number" placeholder="Number" className="boxx" /><br />
+                                <textarea className="mt-4" name="" placeholder="Message..." id="" cols="59" rows="7"></textarea><br /><br />
+                                <button className="btn btn-outline-success mb-3">Send Message</button>
+                            </form>
                         </div>
-                        <div className=" col-5 mapdiv">
-                            uri quis nam mollitia ducimus culpa animi necessitatibus harum similique quaerat, xcepturi sed voluptas laudantium nostrum iure, nemo exercitationem provident maxime. Placeat, facere!
 
+                        <div className="col bg-light mapwrapper">
+                            <iframe className="map " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17152.802292630313!2d77.34244312255036!3d28.618516859202664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce53ee2158279%3A0x3826ffefb2fb48f8!2sSaraswathi%20Vihar%2C%20Khora%20Colony%2C%20Sector%2062A%2C%20Noida%2C%20Uttar%20Pradesh%20201309!5e0!3m2!1sen!2sin!4v1696669440254!5m2!1sen!2sin" width="600" height="450" style={{ border: "" }} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                         </div>
+
                     </div>
-
                 </div>
-
             </div>
         </>
     )
