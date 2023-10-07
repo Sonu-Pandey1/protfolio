@@ -36,7 +36,7 @@ export default function Contact() {
 
                 <div className="  form">
 
-                    <div className="row gap-4 justify-content-between">
+                    <div className="row gap-4 justify-content-between mt-5">
                         <div className="col-5 bg-light">
                             <form action="">
                                 <input type="text" placeholder="Name" className="boxx" /><br />

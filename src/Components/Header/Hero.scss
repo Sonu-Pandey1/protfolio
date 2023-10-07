@@ -1,53 +1,69 @@
 @import "../../Common/Common.scss";
 
-.HeroSection{
+.HeroSection {
     // color: red;
     height: 100%;
     width: 100%;
     padding: 0px 6%;
-    
+
 }
 
-.row{
-    margin-top: 5%;
+.row {
+    // margin-top: 5%;
 
-    .leftDiv{
+    .leftDiv {
         margin-top: 100px;
-        p{
+
+        p {
             color: $font-secondary;
             font-size: large;
             font-weight: 400;
-          
+
         }
 
-        .btn{
+        .btn {
             margin-top: 20px;
         }
-        
+
     }
 
-    .rightDiv{
+    .rightDiv {
         // background-color: red;
-        
-       
-        img{
+
+
+        img {
             // background-color: red;
             height: 90%;
             width: 100%;
             object-fit: contain;
         }
-        
+
     }
 }
 
 .animationleftdiv {
-    h3{
-          margin-top: 15px;
+    h3 {
+        margin-top: 15px;
     }
 
-    .Typinganimation{
+    .Typinganimation {
         color: $font-tertiary;
         letter-spacing: 1px;
     }
 }
 
+/* media quires */
+
+@media(max-width: 991px) {
+    .row {
+        /* margin-top: 50px;
+       */
+        background-color: red;
+
+        .leftDiv {
+            margin-top: 50px;
+            margin-bottom: 60px;
+            /* background-color: #27DEBE; */
+        }
+    }
+}

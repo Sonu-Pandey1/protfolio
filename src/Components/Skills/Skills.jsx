@@ -49,7 +49,7 @@ export default function Skills() {
         </div>
         <div className="container d-flex justify-content-between">
           {/* <div className="row"> */}
-            <div className="col">
+            <div className="col-lg-6">
               <div className="progress">
                 <h3>HTML & CSS <span>85%</span></h3>
                 <div className="bar"><span></span></div>
@@ -100,7 +100,7 @@ export default function Skills() {
                 <div className="bar"><span></span></div>
               </div>
             </div>
-            <div className="col">
+            <div className="col-lg-6">
               <div className="container skillRightDivParent ">
                 <div className="skillsrightdiv">
                 <h3>{'>>'} 10+</h3>

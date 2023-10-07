@@ -58,13 +58,13 @@
 
 .box{
     // background-color: #27DEBE;
-    margin: 10px;
-    height: 300px;
-    width: 31%;
-    overflow: hidden;
-    border-radius: .9rem;
+    // margin: 10px;
+    // height: 300px;
+    // width: 31%;
+    // overflow: hidden;
+    // border-radius: .9rem;
 
-    background-color: rgb(255, 255, 255);
+    // background-color: rgb(255, 255, 255);
     
 
     img{
@@ -109,4 +109,18 @@
 
 .footerh1{
     font-size: 25px;
+}
+
+
+
+/* media quires */
+
+@media(max-width: 575px) {
+   
+    .box{
+        height: auto;
+        width: auto;
+        background-color: #27DEBE;
+    }
+    
 }

@@ -95,3 +95,16 @@
     left: 57%;
 }
 
+
+/* media quires */
+
+@media(max-width: 991px) {
+   
+    .aboutLeftDiv{
+        margin-top: 20px;
+    }
+
+    .AboutRightDiv{
+        margin-top: 40px;
+    }
+}
