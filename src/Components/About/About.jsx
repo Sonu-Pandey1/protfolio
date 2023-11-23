@@ -14,7 +14,7 @@ export default function About() {
                         <div className="col-lg-4 aboutLeftDiv">
                             <img className=" img-fluid img-thumbnail" src="sonuimg.jpg" alt="error" />
                         </div>
-                        <div className="col-lg-8 AboutRightDiv ps-5 ">
+                        <div className="col-lg-8 AboutRightDiv  ps-5 ">
                             <h2>My Name Is Sonu Pandey & I Am A Front-End Developer</h2>
                             <p>As A Web Designer, My Objective Is To Make A Positive Impact On Clients, Co-Workers, And The Internet Using My Skills And Experience To Design Compelling And Attractive Websites.</p>
                             <div className="personalInfo">
