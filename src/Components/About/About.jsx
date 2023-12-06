@@ -12,7 +12,7 @@ export default function About() {
                     <div className="row ">
 
                         <div className="col-lg-4 aboutLeftDiv">
-                            <img className=" img-fluid img-thumbnail" src="sonuimg1.jpg" alt="error" />
+                            <img className=" img-fluid img-thumbnail" src="sonuimg.jpg" alt="error" />
                         </div>
                         <div className="col-lg-8 AboutRightDiv  ps-5 ">
                             <h2>My Name Is Sonu Pandey & I Am A Front-End Developer</h2>
